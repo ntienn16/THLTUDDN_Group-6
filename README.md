@@ -44,3 +44,6 @@ Demo Bus Ticketing
     * Yêu cầu nhập thông tin thanh toán (chỉ là các trường nhập liệu tĩnh).
     * Có nút "Thanh Toán" để hoàn tất giao dịch (chức năng thanh toán thực tế không được triển khai).
     * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công.
+
+## Cách Sử Dụng:
+
