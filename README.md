@@ -6,3 +6,41 @@ Demo Bus Ticketing
 **Lưu ý quan trọng:**
 * Đây là **giao diện tĩnh** được tạo bằng HTML và CSS. **Không có chức năng backend hoặc tương tác dữ liệu thực tế** trong bản demo này.
 * Các chức năng như xử lý đăng nhập, đăng ký, tìm kiếm dữ liệu chuyến xe, xử lý đặt chỗ và thanh toán **chưa được triển khai** và chỉ được thể hiện dưới dạng các trang giao diện.
+## Các Chức Năng Demo:
+1.  **Đăng Nhập (login.html)**
+    * Giao diện cho người dùng đã có tài khoản đăng nhập bằng email/facebook và mật khẩu.
+    * Có liên kết đến trang đăng ký và trang lấy lại mật khẩu.
+2.  **Đăng Ký Tài Khoản (register.html)**
+    * Giao diện cho người dùng mới tạo tài khoản bằng cách nhập các thông tin cá nhân (ví dụ: tên, email/số điện thoại, mật khẩu).
+    * Có nút để chuyển về trang đăng nhập.
+3.  **Lấy Lại Mật Khẩu (forgot_password.html)**
+    * Giao diện cho người dùng quên mật khẩu, thường yêu cầu nhập email/số điện thoại để khôi phục.
+    * Có thể có các bước xác minh (ví dụ: gửi mã OTP).
+4.  **Tìm Chuyến Xe (find_trip.html)**
+    * Giao diện cho phép người dùng tìm kiếm chuyến xe bằng cách chọn:
+        * Điểm đi.
+        * Điểm đến.
+        * Ngày đi.
+        * (Tùy chọn) Thời gian đi.
+    * Hiển thị danh sách các chuyến xe khả dụng dựa trên tiêu chí tìm kiếm (dữ liệu chuyến xe là tĩnh và chỉ mang tính minh họa).
+5.  **Đặt Chỗ (booking.html)**
+    * Giao diện hiển thị thông tin chi tiết của một chuyến xe đã chọn (ví dụ: giờ khởi hành, giá vé, nhà xe, số ghế còn trống).
+    * Cho phép người dùng chọn số lượng hành khách và vị trí ghế (chỉ là giao diện chọn ghế tĩnh).
+    * Hiển thị tổng tiền dự kiến.
+    * Có nút để chuyển sang trang thanh toán.
+6.  **Quản Lý Vé Xe (ticket_management/)**
+    * Thư mục này chứa các trang liên quan đến quản lý vé:
+        * **Xem Lại Lịch Sử Đặt Vé (ticket_history.html):**
+            * Giao diện hiển thị danh sách các vé đã đặt trong quá khứ, bao gồm thông tin chi tiết như mã vé, thông tin chuyến xe, trạng thái thanh toán, ngày đặt.
+            * Có thể có các bộ lọc hoặc chức năng tìm kiếm lịch sử.
+        * **Hủy Vé Chưa Thanh Toán (cancel_unpaid.html):**
+            * Giao diện hiển thị danh sách các vé đã đặt nhưng chưa được thanh toán.
+            * Cho phép người dùng chọn và hủy các vé này. Có thể có bước xác nhận hủy.
+        * **Chi Tiết Vé (ticket_detail.html):**
+            * Giao diện hiển thị thông tin chi tiết của một vé cụ thể khi người dùng nhấp vào một vé trong lịch sử hoặc danh sách vé chưa thanh toán.
+            * Bao gồm đầy đủ thông tin chuyến đi, thông tin hành khách, trạng thái thanh toán và có thể có nút để xem mã QR hoặc tùy chọn hủy (tùy thuộc vào trạng thái vé).
+  7.  **Thanh Toán Online (payment.html)**
+    * Giao diện cho phép người dùng chọn phương thức thanh toán (ví dụ: thẻ tín dụng, ví điện tử, chuyển khoản ngân hàng).
+    * Yêu cầu nhập thông tin thanh toán (chỉ là các trường nhập liệu tĩnh).
+    * Có nút "Thanh Toán" để hoàn tất giao dịch (chức năng thanh toán thực tế không được triển khai).
+    * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công.
