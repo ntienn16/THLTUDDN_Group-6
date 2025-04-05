@@ -40,9 +40,9 @@ Demo Bus Ticketing
             * Giao diện hiển thị thông tin chi tiết của một vé cụ thể khi người dùng nhấp vào một vé trong lịch sử hoặc danh sách vé chưa thanh toán.
             * Bao gồm đầy đủ thông tin chuyến đi, thông tin hành khách, trạng thái thanh toán và có thể có nút để xem mã QR hoặc tùy chọn hủy (tùy thuộc vào trạng thái vé).
   7.  **Thanh Toán Online (Payment)**
-    * Giao diện cho phép người dùng chọn phương thức thanh toán (ví dụ: thẻ tín dụng, ví điện tử, chuyển khoản ngân hàng). (Payment information)
-    * Có nút "Thanh Toán" để hoàn tất giao dịch (chức năng thanh toán thực tế không được triển khai). (Payment methods)
-    * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công. (Ticket information)
+   * Giao diện cho phép người dùng chọn phương thức thanh toán (ví dụ: thẻ tín dụng, ví điện tử, chuyển khoản ngân hàng). (Payment information)
+   * Có nút "Thanh Toán" để hoàn tất giao dịch (chức năng thanh toán thực tế không được triển khai). (Payment methods)
+   * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công. (Ticket information)
 
 ## Cách Sử Dụng:
 1.  Tải xuống và giải nén các file `Log, Register.rar`, `Search Trip-Reserve Vehicle.rar`, `Booking-Ticket.rar`. 
