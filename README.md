@@ -48,6 +48,28 @@ Demo Bus Ticketing
 4.  Điều hướng đến các trang (thông qua các liên kết giả định trong giao diện) để hình dung luồng người dùng cho việc đăng nhập, tìm kiếm, đặt chỗ, thanh toán và **quản lý vé**.
 5.  Trong thư mục `Booking history`, mở các file HTML để xem giao diện cho lịch sử đặt vé và hủy vé chưa thanh toán.
 
+## Cấu Trúc Thư Mục (Dự Kiến):
+bus_booking_demo/
+├── index.html
+├── login.html
+├── register.html
+├── forgot_password.html
+├── find_trip.html
+├── booking.html
+├── payment.html
+├── ticket_management/
+│   ├── ticket_history.html
+│   ├── cancel_unpaid.html
+│   └── ticket_detail.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── logo.png
+│   └── ...
+└── README.md
+
 ## Mục Tiêu
 Bản demo này được tạo ra nhằm mục đích:
 * Trực quan hóa các màn hình và luồng người dùng cơ bản của một ứng dụng đặt vé xe bus, bao gồm cả chức năng quản lý vé.
