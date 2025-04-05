@@ -16,17 +16,16 @@ Demo Bus Ticketing
 3.  **Lấy Lại Mật Khẩu (forgot_password.html)**
     * Giao diện cho người dùng quên mật khẩu, thường yêu cầu nhập email/số điện thoại để khôi phục.
     * Có thể có các bước xác minh (ví dụ: gửi mã OTP).
-4.  **Tìm Chuyến Xe (find_trip.html)**
+4.  **Tìm Chuyến Xe (index.html)**
     * Giao diện cho phép người dùng tìm kiếm chuyến xe bằng cách chọn:
         * Điểm đi.
         * Điểm đến.
         * Ngày đi.
-        * (Tùy chọn) Thời gian đi.
+        * Số lượng người đi
     * Hiển thị danh sách các chuyến xe khả dụng dựa trên tiêu chí tìm kiếm (dữ liệu chuyến xe là tĩnh và chỉ mang tính minh họa).
-5.  **Đặt Chỗ (booking.html)**
-    * Giao diện hiển thị thông tin chi tiết của một chuyến xe đã chọn (ví dụ: giờ khởi hành, giá vé, nhà xe, số ghế còn trống).
-    * Cho phép người dùng chọn số lượng hành khách và vị trí ghế (chỉ là giao diện chọn ghế tĩnh).
-    * Hiển thị tổng tiền dự kiến.
+5.  **Đặt Chỗ (reserve.html)**
+    * Giao diện hiển thị thông tin chi tiết của một chuyến xe đã chọn (ví dụ: ngày khởi hành, thông tin cá nhân khách hàng, số ghế còn trống).
+    * Cho phép người dùng chọn ngày khởi hành và vị trí ghế (chỉ là giao diện chọn ghế tĩnh).
     * Có nút để chuyển sang trang thanh toán.
 6.  **Quản Lý Vé Xe (Bookings history.html)**
     * Thư mục này chứa các trang liên quan đến quản lý vé:
