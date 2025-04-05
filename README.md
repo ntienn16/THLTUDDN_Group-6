@@ -47,3 +47,9 @@ Demo Bus Ticketing
 3.  Mở file `Login.html` (hoặc bất kỳ file HTML nào bạn muốn xem) bằng trình duyệt web của bạn (Google Chrome, Mozilla Firefox, Safari, v.v.).
 4.  Điều hướng đến các trang (thông qua các liên kết giả định trong giao diện) để hình dung luồng người dùng cho việc đăng nhập, tìm kiếm, đặt chỗ, thanh toán và **quản lý vé**.
 5.  Trong thư mục `Booking history`, mở các file HTML để xem giao diện cho lịch sử đặt vé và hủy vé chưa thanh toán.
+
+## Mục Tiêu
+Bản demo này được tạo ra nhằm mục đích:
+* Trực quan hóa các màn hình và luồng người dùng cơ bản của một ứng dụng đặt vé xe bus, bao gồm cả chức năng quản lý vé.
+* Cung cấp một cơ sở để thảo luận và thu thập phản hồi về thiết kế giao diện và trải nghiệm người dùng cho tất cả các chức năng, bao gồm cả quản lý vé.
+* Làm nền tảng cho việc phát triển ứng dụng thực tế với các chức năng backend và tương tác dữ liệu.
