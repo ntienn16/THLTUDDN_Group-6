@@ -28,22 +28,21 @@ Demo Bus Ticketing
     * Cho phép người dùng chọn số lượng hành khách và vị trí ghế (chỉ là giao diện chọn ghế tĩnh).
     * Hiển thị tổng tiền dự kiến.
     * Có nút để chuyển sang trang thanh toán.
-6.  **Quản Lý Vé Xe (ticket_management/)**
+6.  **Quản Lý Vé Xe (Bookings history)**
     * Thư mục này chứa các trang liên quan đến quản lý vé:
-        * **Xem Lại Lịch Sử Đặt Vé (ticket_history.html):**
+        * **Xem Lại Lịch Sử Đặt Vé (Bookings history.html):**
             * Giao diện hiển thị danh sách các vé đã đặt trong quá khứ, bao gồm thông tin chi tiết như mã vé, thông tin chuyến xe, trạng thái thanh toán, ngày đặt.
             * Có thể có các bộ lọc hoặc chức năng tìm kiếm lịch sử.
-        * **Hủy Vé Chưa Thanh Toán (cancel_unpaid.html):**
+        * **Hủy Vé Chưa Thanh Toán:**
             * Giao diện hiển thị danh sách các vé đã đặt nhưng chưa được thanh toán.
             * Cho phép người dùng chọn và hủy các vé này. Có thể có bước xác nhận hủy.
-        * **Chi Tiết Vé (ticket_detail.html):**
+        * **Chi Tiết Vé:**
             * Giao diện hiển thị thông tin chi tiết của một vé cụ thể khi người dùng nhấp vào một vé trong lịch sử hoặc danh sách vé chưa thanh toán.
             * Bao gồm đầy đủ thông tin chuyến đi, thông tin hành khách, trạng thái thanh toán và có thể có nút để xem mã QR hoặc tùy chọn hủy (tùy thuộc vào trạng thái vé).
-  7.  **Thanh Toán Online (payment.html)**
-    * Giao diện cho phép người dùng chọn phương thức thanh toán (ví dụ: thẻ tín dụng, ví điện tử, chuyển khoản ngân hàng).
-    * Yêu cầu nhập thông tin thanh toán (chỉ là các trường nhập liệu tĩnh).
-    * Có nút "Thanh Toán" để hoàn tất giao dịch (chức năng thanh toán thực tế không được triển khai).
-    * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công.
+  7.  **Thanh Toán Online (Payment)**
+    * Giao diện cho phép người dùng chọn phương thức thanh toán (ví dụ: thẻ tín dụng, ví điện tử, chuyển khoản ngân hàng). (Payment information)
+    * Có nút "Thanh Toán" để hoàn tất giao dịch (chức năng thanh toán thực tế không được triển khai). (Payment methods)
+    * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công. (Ticket information)
 
 ## Cách Sử Dụng:
 1.  Tải xuống và giải nén các file `Log, Register.rar`, `Search Trip-Reserve Vehicle.rar`, `Booking-Ticket.rar`. 
