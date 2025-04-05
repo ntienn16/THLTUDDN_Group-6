@@ -46,4 +46,7 @@ Demo Bus Ticketing
     * Sau khi "thanh toán", có thể chuyển đến trang thông báo đặt vé thành công.
 
 ## Cách Sử Dụng:
-
+1.  Tải xuống và giải nén các file `Log, Register.rar`, `Search Trip-Reserve Vehicle.rar`, `Booking-Ticket.rar`. 
+3.  Mở file `Login.html` (hoặc bất kỳ file HTML nào bạn muốn xem) bằng trình duyệt web của bạn (Google Chrome, Mozilla Firefox, Safari, v.v.).
+4.  Điều hướng đến các trang (thông qua các liên kết giả định trong giao diện) để hình dung luồng người dùng cho việc đăng nhập, tìm kiếm, đặt chỗ, thanh toán và **quản lý vé**.
+5.  Trong thư mục `Booking history`, mở các file HTML để xem giao diện cho lịch sử đặt vé và hủy vé chưa thanh toán.
